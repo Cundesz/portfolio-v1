@@ -42,6 +42,28 @@ export default function Trabalhos() {
             </a>
           </div>
         </Reveal>
+        <Reveal className="card">
+          <div className="sub">SITE PESSOAL · CÓDIGO ABERTO</div>
+          <h3>Portfólio v1 — este site</h3>
+          <p>
+            A página que você está vendo: one-page em Next.js com fundo 3D em three.js, nós de habilidade
+            clicáveis e deploy contínuo na Vercel.
+          </p>
+          <div className="tags">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Tailwind</span>
+            <span>three.js</span>
+          </div>
+          <div className="proj-links">
+            <a className="btn solid" href="/">
+              ↗ VOCÊ ESTÁ AQUI
+            </a>
+            <a className="btn ghost" href="https://github.com/Cundesz/portfolio-v1" target="_blank" rel="noopener">
+              ⌁ CÓDIGO
+            </a>
+          </div>
+        </Reveal>
         <Reveal className="card soon">
           <div className="sub">EM ANDAMENTO</div>
           <b>Próximo projeto</b>

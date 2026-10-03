@@ -95,7 +95,7 @@ p.lead{color:var(--mut);max-width:62ch;font-size:1.06rem;line-height:1.7}
 .node:hover::before,.node.on::before{background:var(--acc);box-shadow:0 0 10px var(--acc)}
 #stack-out{border:1px solid var(--acc);background:#061014;padding:1rem 1.1rem;font-family:var(--mono);font-size:.84rem;line-height:1.7;min-height:170px;margin-top:1.4rem}
 #stack-out .ok{color:var(--acc)}
-.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem}
+.proj-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-top:1.5rem}
 @media(max-width:900px){.proj-grid{grid-template-columns:1fr}}
 .card{border:1px solid var(--line);background:rgba(14,20,29,.75);padding:1.4rem;display:flex;flex-direction:column}
 .card h3{font-family:var(--disp);font-size:1.4rem;margin:.6rem 0 .4rem}
