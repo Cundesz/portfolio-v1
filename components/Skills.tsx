@@ -3,14 +3,14 @@
 import { useState } from 'react';
 import Reveal from './Reveal';
 
-type Node = { label: string; hot?: boolean; info: string };
+type Node = { label: string; info: string };
 
 const CATS: { title: string; nodes: Node[] }[] = [
   {
     title: 'O QUE EU ENTREGO',
     nodes: [
-      { label: 'Sites e landing pages', hot: true, info: 'Sites e landing pages rápidas, responsivas e bem organizadas — do layout ao formulário funcionando.' },
-      { label: 'Interfaces responsivas', hot: true, info: 'Telas que funcionam no celular e no desktop, com atenção a espaçamento, leitura e acessibilidade básica.' },
+      { label: 'Sites e landing pages', info: 'Sites e landing pages rápidas, responsivas e bem organizadas — do layout ao formulário funcionando.' },
+      { label: 'Interfaces responsivas', info: 'Telas que funcionam no celular e no desktop, com atenção a espaçamento, leitura e acessibilidade básica.' },
       { label: 'Painéis e dashboards', info: 'Painéis com números, tabelas e listagens — jeito simples de visualizar clientes, produtos e pedidos.' },
       { label: 'Sistemas com login', info: 'Fluxos com cadastro, login e áreas restritas, com validações e mensagens claras de erro.' },
       { label: 'Visual e temas', info: 'Temas claro e escuro, componentes reutilizáveis e cuidado visual sem exagero.' },
@@ -72,7 +72,7 @@ export default function Skills() {
               {cat.nodes.map((n) => (
                 <button
                   key={n.label}
-                  className={`node${n.hot ? ' hot' : ''}${sel?.label === n.label ? ' on' : ''}`}
+                  className={`node${sel?.label === n.label ? ' on' : ''}`}
                   onClick={() => setSel(n)}
                 >
                   {n.label}
