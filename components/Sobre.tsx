@@ -36,9 +36,6 @@ export default function Sobre() {
             <br />
             STATUS: <b style={{ color: 'var(--ok)' }}>● ABERTO A OPORTUNIDADES</b>
           </div>
-          <p style={{ fontFamily: 'var(--mono)', fontSize: '.7rem', color: 'var(--mut)' }}>
-            ↓ salve sua foto como <b style={{ color: 'var(--acc)' }}>public/avatar.jpg</b> p/ ativar o retrato.
-          </p>
         </Reveal>
         <Reveal className="about-txt">
           <p>
@@ -51,8 +48,8 @@ export default function Sobre() {
             e publicação. Já passei por diferentes ferramentas e aprendo rápido o que cada projeto pede.
           </p>
           <p>
-            Hoje busco uma <b>vaga de estágio ou júnior</b> para ajudar de verdade no dia a dia, aprender com
-            o time e evoluir a cada entrega.
+            No momento estou focado em <b>aprender coisas novas a cada projeto</b> — explorando ferramentas,
+            boas práticas e transformando estudo em coisa funcionando.
           </p>
           <div className="timeline">
             <div>

@@ -81,7 +81,7 @@ export default function Hero() {
           <br />
           <span className="p">$</span> status
           <br />
-          disponível para estágio e júnior · construindo e aprendendo todos os dias
+          aprendendo coisas novas · construindo todos os dias
         </div>
       </div>
       <div className="hero-meta">
