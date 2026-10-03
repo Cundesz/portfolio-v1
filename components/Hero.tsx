@@ -66,9 +66,6 @@ export default function Hero() {
         <a className="btn solid" href="#projetos">
           ▶ VER TRABALHOS
         </a>
-        <a className="btn ghost" href="/cv.pdf" download>
-          ↓ BAIXAR CV
-        </a>
       </div>
       <div className="term" aria-label="Terminal de status">
         <div className="term-bar">
