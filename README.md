@@ -1,27 +1,34 @@
 # portfolio-v1 — João Facundes
 
-Portfólio pessoal em arquivo único (`index.html`), com fundo em constelação 3D (Three.js) que reage ao mouse e ao scroll.
+Portfólio pessoal em **Next.js 14 + TypeScript + Tailwind**, com fundo em constelação 3D (three.js via npm) que reage ao mouse e ao scroll.
 
 ## Como rodar
 
-Abra o `index.html` no navegador, ou sirva a pasta:
-
 ```sh
-npx serve .
+npm install
+npm run dev   # http://localhost:3000
 ```
 
 ## Estrutura
 
-- `index.html` — site inteiro (HTML + CSS + JS inline)
-- `cv.pdf` — currículo para o botão "Baixar CV"
-- `avatar.jpg` — sua foto (opcional; salve com esse nome nesta pasta para ativar o retrato no Sobre)
+```
+app/
+  layout.tsx      # fontes, metadata
+  page.tsx        # monta as seções
+  globals.css     # tema grafite + ciano
+  icon.svg        # favicon
+components/
+  Constellation.tsx  # cena 3D (three.js)
+  Boot.tsx Hud.tsx Hero.tsx
+  Sobre.tsx Skills.tsx Trabalhos.tsx Contato.tsx Footer.tsx
+  Reveal.tsx         # reveal on scroll
+public/
+  cv.pdf        # botão "Baixar CV"
+  avatar.jpg    # sua foto (adicione com esse nome p/ ativar o retrato)
+```
 
-## Seções
+## Deploy
 
-1. Hero com terminal de status
-2. Sobre
-3. O que eu faço (nós clicáveis)
-4. Trabalhos (ERP Lite + próximos)
-5. Contato (LinkedIn, GitHub, e-mail)
+Pronto para a Vercel: é só importar o repo `Cundesz/portfolio-v1`. O `next build` já foi validado localmente.
 
 Demo do ERP Lite: https://erplite-rho.vercel.app — login `admin@erp.com` / `admin123`
