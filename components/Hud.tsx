@@ -50,9 +50,6 @@ export default function Hud() {
             <a href="#projetos">03_trabalhos</a>
             <a href="#contato">04_contato</a>
           </nav>
-          <span className="status hide-m" style={{ marginLeft: '1rem' }}>
-            LAT -12.97 LON -38.51
-          </span>
         </div>
       </header>
     </>

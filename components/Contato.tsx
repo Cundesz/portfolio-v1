@@ -17,11 +17,6 @@ export default function Contato() {
         </p>
       </Reveal>
       <Reveal>
-        <p className="lead">
-          Me chama direto no e-mail — costumo responder rápido. Se preferir, LinkedIn também funciona.
-        </p>
-      </Reveal>
-      <Reveal>
         <div className="contact-row">
           <a className="btn solid" href={`mailto:${EMAIL}`}>
             ✉ ENVIAR E-MAIL
